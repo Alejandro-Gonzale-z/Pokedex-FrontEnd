@@ -1,0 +1,22 @@
+/* container for div in PokemonStats.tsx which is the overall container for button */
+.main-button-container{
+  width: 100%;
+  display: inline-flex;
+  max-width: 100%;
+  justify-content: space-between;
+}
+
+.main-button2 {
+  width: 48%;
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+}
+
+.main-button1{
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  padding: 7px;
+  max-width: 100%;
+}

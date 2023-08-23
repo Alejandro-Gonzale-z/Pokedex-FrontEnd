@@ -1,0 +1,49 @@
+.stats-body {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.main-image {
+  display: flex;
+  width: 95%;
+  margin-bottom: 15px;
+  margin-left: 2.5%;
+  max-width: 100%;
+  margin-right: 2.5%;
+}
+
+.stats-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats-image-container {
+  display: flex;
+  max-height: 450px;
+  min-height: 300px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.stats-image-left-container {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-right: 2.5%;
+  min-height: 300px;
+  max-height: 450px;
+}
+
+.right-parent {
+  width: 75%;
+  margin-left: 2.5%;
+}
+
+.stats-right-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  width: 100%;
+  column-gap: 5%;
+  max-height: 200px;
+}

@@ -1,0 +1,239 @@
+.pokemon-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  align-self: center;
+  padding: 20px;
+  max-width: 250px;
+}
+
+.card-img {
+  width: 200px;
+  height: 200px;
+  object-fit: fit;
+  align-self: center;
+  padding-bottom: 15px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card-text {
+  font-size: 24px;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 100%;
+  align-self: center;
+  padding: 0 10px;
+  background-color: white;
+  color: black;
+}
+
+.fire {
+  background-color: red;
+}
+
+.grass {
+  background-color: green;
+}
+
+.water {
+  background-color: blue;
+}
+
+.flying {
+  background-color: rgba(72, 72, 185, 0.94);
+}
+
+.normal {
+  background-color: rgba(183, 161, 133, 0.971);
+}
+
+.poison {
+  background-color: purple;
+}
+
+.rock {
+  background-color: rgb(171, 84, 13);
+}
+
+.bug {
+  background-color: #9fb036;
+}
+
+.ghost {
+  background-color: rgba(42, 5, 84, 0.882);
+}
+
+.fighting {
+  background-color:  rgb(192, 47, 39);
+}
+
+.ground {
+  background-color: sandybrown;
+}
+
+.psychic {
+  background-color: hotpink;
+}
+
+.ice {
+  background-color: lightblue;
+}
+
+.electric {
+  background-color: yellow;
+}
+
+.dragon {
+  background-color: rgb(97, 23, 167);
+}
+
+.dark {
+  background-color: rgb(57, 35, 35);
+}
+
+.fairy {
+  background-color: rgb(184, 112, 124);
+}
+
+.steel {
+  background-color: rgb(72, 68, 68);
+}
+
+.poisonground {
+  background: linear-gradient(145deg, sandybrown, purple);
+}
+
+.grasspoison {
+  background: linear-gradient(145deg, green, purple);
+}
+
+.fireflying {
+  background: linear-gradient(145deg, red, rgba(72, 72, 185, 0.94));
+}
+
+.bugflying {
+  background: linear-gradient(145deg, #9fb036, rgba(72, 72, 185, 0.94));
+}
+
+.bugpoison {
+  background: linear-gradient(145deg, #9fb036, purple);
+}
+
+.normalflying {
+  background: linear-gradient(
+    145deg,
+    rgba(183, 161, 133, 0.971),
+    rgba(72, 72, 185, 0.94)
+  );
+}
+
+.normalfairy {
+  background: linear-gradient(
+    145deg,
+    rgba(183, 161, 133, 0.971),
+    rgba(184, 112, 124)
+  );
+}
+
+.poisonflying {
+  background: linear-gradient(145deg, purple, rgba(72, 72, 185, 0.94));
+}
+
+.posiongrass {
+  background: linear-gradient(145deg, purple, green);
+}
+
+.buggrass {
+  background: linear-gradient(145deg, #9fb036, green);
+}
+
+.waterfighting {
+  background: linear-gradient(145deg, blue, rgb(192, 47, 39));
+}
+
+.rockground {
+  background: linear-gradient(145deg, sandybrown, rgb(171, 84, 13));
+}
+
+.waterpoison {
+  background: linear-gradient(145deg, blue, purple);
+}
+
+.waterpsychic {
+  background: linear-gradient(145deg, blue, hotpink);
+}
+
+.electricsteel {
+  background: linear-gradient(145deg, yellow, rgb(72, 68, 68));
+}
+
+.waterice {
+  background: linear-gradient(145deg, blue, lightblue);
+}
+
+.ghostpoison {
+  background: linear-gradient(145deg, rgba(42, 5, 84, 0.882), purple);
+}
+
+.grasspsychic {
+  background: linear-gradient(145deg, green, hotpink);
+}
+
+.groundrock {
+  background: linear-gradient(145deg, sandybrown, rgba(171, 84, 13));
+}
+
+.psychicfairy {
+  background: linear-gradient(145deg, hotpink, rgb(184, 112, 124));
+}
+
+.icepsychic {
+  background: linear-gradient(145deg, lightblue, hotpink);
+}
+
+.waterflying {
+  background: linear-gradient(145deg, blue, rgba(72, 72, 185, 0.94));
+}
+
+.rockwater {
+  background: linear-gradient(145deg, rgb(171, 84, 13), blue);
+}
+
+.rockflying {
+  background: linear-gradient(
+    145deg,
+    rgb(171, 84, 13),
+    rgba(72, 72, 185, 0.94)
+  );
+}
+
+.iceflying {
+  background: linear-gradient(145deg, lightblue, rgba(72, 72, 185, 0.94));
+}
+
+.electricflying {
+  background: linear-gradient(145deg, yellow, rgba(72, 72, 185, 0.94));
+}
+
+.dragonflying {
+  background: linear-gradient(
+    145deg,
+    rgb(97, 23, 167),
+    rgba(72, 72, 185, 0.94)
+  );
+}
