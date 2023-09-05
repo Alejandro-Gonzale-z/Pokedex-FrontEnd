@@ -1,0 +1,56 @@
+.mobile-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1.5vh;
+}
+
+.mobile-pokeball {
+    width: 5vh;
+}
+
+.mobile-title {
+    color:  rgba(0, 102, 255, 0.912);
+    font-size: 32px;
+}
+
+.mobile-body-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5vh;
+    margin-bottom: 1.5vh;
+}
+
+.mobile-image2{
+    width: 30vh;
+    height: 30vh;
+    border-radius: 15px;
+    display: flex;
+}
+
+.mobile-p {
+    font-size: 16px;
+    margin-top: -18px;
+    text-align: center;
+    color: rgba(109, 109, 109, 0.961);
+}
+
+.mobile-title2 {
+    font-size: 16px;
+    font-weight: 400;
+    align-self: center;
+}    
+
+.mobile-icon-container{
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+    
+}
+
+.mobile-icon {
+    width: 5vh;
+}
